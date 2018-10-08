@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="editTextStyle">@style/MyEditTextStyle</item>
+        <item name="buttonStyle">@style/MyButton</item>
+    </style>
+
+    <style name="MyEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="MyButton" parent="Base.Widget.AppCompat.Button">
+        <!--<item name="android:background">@drawable/btn_board</item>-->
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>
